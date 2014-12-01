@@ -7,8 +7,8 @@ This appears to be an issue with the cleanup part not quite working when the app
 
 You can void the reboot if you get a shell and issue the following two commands
 
-- ifconfig bridge0 down
-- brctl delbr bridge0
+    ifconfig bridge0 down
+    brctl delbr bridge0
 
 This app simply do just that, but from an App, avoiding the hassle of having to get shell and typing those commands. 
 
@@ -16,11 +16,11 @@ This is probably best if done directly in the freetether code. But I couldn't fi
 
 ## Installtion 
 
-git clone https://github.com/mobileteck/FreeTetherCleanup.git
-cd FreeTetherCleanup
-git submodule update --init
-tools\deploy-webos.bat
-palm-install bin\*.ipk
+    git clone https://github.com/mobileteck/FreeTetherCleanup.git
+    cd FreeTetherCleanup
+    git submodule update --init
+    tools\deploy-webos.bat
+    palm-install bin\*.ipk
 
 
 ## Usage
