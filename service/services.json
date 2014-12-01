@@ -1,0 +1,21 @@
+{
+"id": "com.mobileteck.freetether.cleaner.service",
+"description": "FreeTether Cleaner Service",
+"engine":"node",
+"activityTimeout" : 300,
+"privatebus": true,
+"services": [{
+	"name": "com.mobileteck.freetether.cleaner.service",
+	"description": "FreeTether Cleaner Service",
+	"commands": [{
+	    "name" : "clean",
+	    "assistant" : "FreeTetherCleanerService",
+	    "public" : true
+	    },
+	    {
+	    "name" : "check",
+	    "assistant" : "FreeTetherCheckerService",
+	    "public" : true
+	    }]
+	 }]
+}

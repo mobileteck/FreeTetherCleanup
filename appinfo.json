@@ -1,0 +1,12 @@
+{
+	"title": "FreeTether Cleaner",
+	"id": "com.mobileteck.freetether.cleaner",
+	"version": "1.0.0",
+	"vendor": "Mobileteck.com",
+	"vendorurl": "http://www.mobileteck.com",
+	"type": "web",
+	"main": "index.html",
+	"icon": "icon.png",
+	"uiRevision": "2"
+}
+

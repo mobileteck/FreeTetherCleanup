@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=com.mobileteck.freetether.cleaner.service
+Exec=/var/usr/sbin/com.mobileteck.freetether.cleaner.service                           

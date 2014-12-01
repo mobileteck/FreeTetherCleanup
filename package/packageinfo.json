@@ -1,0 +1,12 @@
+{
+  "id": "com.mobileteck.freetether.cleaner",
+  "package_format_version": 2,
+  "loc_name": "FreeTether Cleaner",
+  "version": "1.0.0",
+  "icon": "icon-128x128.png",
+  "miniicon": "icon.png",
+  "vendor": "Mobileteck.com",
+  "vendorurl": "http://www.mobileteck.com",
+  "app": "com.mobileteck.freetether.cleaner",
+  "services": ["com.mobileteck.freetether.cleaner.service"]
+}

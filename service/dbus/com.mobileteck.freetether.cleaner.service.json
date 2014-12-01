@@ -1,0 +1,14 @@
+{
+	"role": {
+		"allowedNames": ["com.mobileteck.freetether.cleaner.service"],
+		"type": "privileged",
+		"exeName": "js"
+	},
+	"permissions": [
+		{
+			"inbound": ["*"],
+			"outbound": ["*"],
+			"service": "com.mobileteck.freetether.cleaner.service"
+		}
+	]
+}
